@@ -19,7 +19,7 @@ gulp.task('process', function() {
   .pipe(babel({presets: ['@babel/preset-env']}))
   //.pipe(obfuscate())     
   .pipe(uglify())    
-  .pipe(gulp.dest('./js/')) //Destino
+  .pipe(gulp.dest('./dist/js/')) //Destino
   .pipe(notify("JS Compiled!")); //Mensaje
 	
 });
@@ -52,7 +52,7 @@ gulp.task('sass', function () {
         .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(autoprefixer('last 10 version'))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./css'))
+        .pipe(gulp.dest('./dist/css'))
         .pipe(notify("Sass Compiled!")); //Mensaje
       
   });
