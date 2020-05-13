@@ -1,0 +1,38 @@
+.btn{
+    @include btn;
+    padding: .8rem 1.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    &.btn--red{
+        background-color: $red;
+        color: $white;
+    }
+    &.btn--green{
+        background-color: $green;
+        color: $white;
+    }
+    &.btn--blue{
+        background-color: $blue;
+    }
+    &.btn--drk-blue{
+        background-color: $darkBlue;
+    }
+    &.btn--yellow{
+        background-color: $yellow;
+    }
+    /* &.btn--orange{
+        background-color: $orange;
+    } */
+    &.btn--pink{
+        background-color: $pink;
+    }
+}
+.btn-round{
+    @include btn;
+    border-radius: 100%;
+    width: 3.5rem;
+    display: inline-block;
+    height: 3.5rem;
+    cursor: pointer;
+}
