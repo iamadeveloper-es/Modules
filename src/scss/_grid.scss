@@ -4,11 +4,11 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .contenedor-fw{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     .fila{
         margin-right: 0;
         margin-left: 0;
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .column{
     @include column;

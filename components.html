@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Layout Components</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,800;1,400" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/layout.css">
     <link rel="stylesheet" href="dist/css/components/components.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 200;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-weight: 700;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,12 +38,12 @@
                 <button class="btn btn--drk-blue">Botón</button>
             </div>
         </div>
-        <div class="fila">
+        <!-- <div class="fila">
             <div class="column">
                 <h2>Buttons Round</h2>
                 <button class="btn-round">Round</button>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="contenedor">
         <div class="fila">
@@ -42,6 +56,10 @@
                     <input type="text" placeholder="Name">
                     <label for="">Password</label>
                     <input type="text" placeholder="Passwword">
+                    <div class="checkbox-container">
+                        <label for="check"><input type="checkbox" name="check" id="">Aceptar las condiciones</label>
+                    </div>
+                    <input type="submit" value="Send">
                 </form>
             </div>
         </div>

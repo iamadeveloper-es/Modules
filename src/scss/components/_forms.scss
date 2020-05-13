@@ -1,9 +1,26 @@
 .form{
+    width: 100%;
+    max-width: 500px;
     input,label{
         display: block;
+        width: 100%;
+    }
+    label{
+        margin-bottom: .5rem;
     }
     input{
-        margin-bottom: .5rem;
+        margin-bottom: 1rem;
+        padding: .8rem;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        @include btn;
+        width: auto;
+        width: auto;
+        padding: .8rem 1.8rem;
+        border-radius: 3px;
+    }
+    .checkbox-container{
+        display:flex;
     }
 
 }
