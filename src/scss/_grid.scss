@@ -1,0 +1,77 @@
+.contenedor{
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+.contenedor-fw{
+    width: 100%;
+    border: 1px solid black;
+    .fila{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    border: 1px solid black;
+}
+.column{
+    @include column;
+}
+.column-1{
+    @include column;
+    max-width: 8.33%;
+}
+.column-2{
+    @include column;
+    max-width: 16.66%;
+}
+.column-3{
+    @include column;
+    max-width: 25%;
+}
+.column-4{
+    @include column;
+    max-width: 33.33%;
+}
+.column-5{
+    @include column;
+    max-width: 44.44%;
+}
+.column-6{
+    @include column;
+    max-width: 50%;
+}
+.column-7{
+    @include column;
+    max-width: 58.34%;
+}
+.column-8{
+    @include column;
+    max-width: 66.66%;
+}
+.column-9{
+    @include column;
+    max-width: 75,18%;
+}
+.column-10{
+    @include column;
+    max-width: 83.33%;
+}
+.column-11{
+    @include column;
+    max-width: 91.74%;
+}
+.column-12{
+    @include column;
+    max-width: 100%;
+}
+
+/* media */
+
