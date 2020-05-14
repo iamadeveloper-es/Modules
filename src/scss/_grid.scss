@@ -1,4 +1,4 @@
-.contenedor{
+.m-container{
     width: 100%;
     margin-bottom: 2rem;
     margin-left: auto;
@@ -6,70 +6,70 @@
     padding: 0 15px;
     /* border: 1px solid black; */
 }
-.contenedor-fw{
+.m-container-fw{
     width: 100%;
     /* border: 1px solid black; */
-    .fila{
+    .m-row{
         margin-right: 0;
         margin-left: 0;
     }
 }
-.fila{
+.m-row{
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     /* border: 1px solid black; */
 }
-.column{
-    @include column;
+.m-col{
+    @include m-col;
 }
-.column-1{
-    @include column;
+.m-col-1{
+    @include m-col;
     max-width: 8.33%;
 }
-.column-2{
-    @include column;
+.m-col-2{
+    @include m-col;
     max-width: 16.66%;
 }
-.column-3{
-    @include column;
+.m-col-3{
+    @include m-col;
     max-width: 25%;
 }
-.column-4{
-    @include column;
+.m-col-4{
+    @include m-col;
     max-width: 33.33%;
 }
-.column-5{
-    @include column;
+.m-col-5{
+    @include m-col;
     max-width: 44.44%;
 }
-.column-6{
-    @include column;
+.m-col-6{
+    @include m-col;
     max-width: 50%;
 }
-.column-7{
-    @include column;
+.m-col-7{
+    @include m-col;
     max-width: 58.34%;
 }
-.column-8{
-    @include column;
+.m-col-8{
+    @include m-col;
     max-width: 66.66%;
 }
-.column-9{
-    @include column;
+.m-col-9{
+    @include m-col;
     max-width: 75,18%;
 }
-.column-10{
-    @include column;
+.m-col-10{
+    @include m-col;
     max-width: 83.33%;
 }
-.column-11{
-    @include column;
+.m-col-11{
+    @include m-col;
     max-width: 91.74%;
 }
-.column-12{
-    @include column;
+.m-col-12{
+    @include m-col;
     max-width: 100%;
 }
 
