@@ -46,12 +46,12 @@ gulp.task('default', function () {
 gulp.task('sass', function () {
     return gulp.src('./src/scss/**/*.scss')    
         .pipe(sass().on('error', sass.logError))
-        .pipe(sourcemaps.init())
+        //.pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(sourcemaps.write({includeContent: false}))
-        .pipe(sourcemaps.init({loadMaps: true}))
+        //.pipe(sourcemaps.write({includeContent: false}))
+        //.pipe(sourcemaps.init({loadMaps: true}))
         .pipe(autoprefixer('last 10 version'))
-        .pipe(sourcemaps.write('.'))
+        //.pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist/css'))
         .pipe(notify("Sass Compiled!")); //Mensaje
       

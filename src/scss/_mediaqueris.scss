@@ -2,97 +2,130 @@
     .m-container{
         max-width: 540px;
     }
-    .s-2{
+    .m-col-s-1{
         @include m-col;
-        max-width: 16.66%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
     }
-    .s-3{
+    .m-col-s-2{
         @include m-col;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .m-col-s-3{
+        @include m-col;
+        flex: 0 0 25%;
+        flex: 0 0 25%;
         max-width: 25%;
     }
-    .s-4{
+    .m-col-s-4{
         @include m-col;
-        max-width: 33.33%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
-    .s-5{
+    .m-col-s-5{
         @include m-col;
-        max-width: 44.44%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
     }
-    .s-6{
+    .m-col-s-6{
         @include m-col;
+        flex: 0 0 50%;
         max-width: 50%;
     }
-    .s-7{
+    .m-col-s-7{
         @include m-col;
-        max-width: 58.34%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
     }
-    .s-8{
+    .m-col-s-8{
         @include m-col;
-        max-width: 66.66%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
     }
-    .s-9{
+    .m-col-s-9{
         @include m-col;
-        max-width: 75,18%;
+        flex: 0 0 75%;
+        max-width: 75%;
     }
-    .s-10{
+    .m-col-s-10{
         @include m-col;
-        max-width: 83.33%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
     }
-    .s-11{
+    .m-col-s-11{
         @include m-col;
-        max-width: 91.74%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
     }
-    .s-12{
+    .m-col-s-12{
         @include m-col;
+        flex: 0 0 100%;
         max-width: 100%;
     }
 }
 @media screen and(min-width: 768px){
     .m-container{
+        @include m-col;
         max-width: 720px;
     }
-    .m-2{
+    .m-col-m-1{
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }   
+    .m-col-m-2{
         @include m-col;
-        max-width: 16.66%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
     }
-    .m-3{
+    .m-col-m-3{
         @include m-col;
+        flex: 0 0 25%;
         max-width: 25%;
     }
-    .m-4{
+    .m-col-m-4{
         @include m-col;
-        max-width: 33.33%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
-    .m-5{
+    .m-col-m-5{
         @include m-col;
-        max-width: 44.44%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
     }
-    .m-6{
+    .m-col-m-6{
         @include m-col;
+        flex: 0 0 50%;
         max-width: 50%;
     }
-    .m-7{
+    .m-col-m-7{
         @include m-col;
-        max-width: 58.34%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
     }
-    .m-8{
+    .m-col-m-8{
         @include m-col;
-        max-width: 66.66%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
     }
-    .m-9{
+    .m-col-m-9{
         @include m-col;
-        max-width: 75,18%;
+        flex: 0 0 75%;
+        max-width: 75%;
     }
-    .m-10{
+    .m-col-m-10{
         @include m-col;
-        max-width: 83.33%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
     }
-    .m-11{
+    .m-col-m-11{
         @include m-col;
-        max-width: 91.74%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
     }
-    .m-12{
+    .m-col-m-12{
         @include m-col;
+        flex: 0 0 100%;
         max-width: 100%;
     }
 }
@@ -100,47 +133,55 @@
     .m-container{
         max-width: 960px;
     }
-    .l-2{
+    .m-col-l-2{
         @include m-col;
-        max-width: 16.66%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
     }
-    .l-3{
+    .m-col-l-3{
         @include m-col;
+        flex: 0 0 25%;
         max-width: 25%;
     }
-    .l-4{
+    .m-col-l-4{
         @include m-col;
-        max-width: 33.33%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
-    .l-5{
+    .m-col-l-5{
         @include m-col;
-        max-width: 44.44%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
     }
-    .l-6{
+    .m-col-l-6{
         @include m-col;
         max-width: 50%;
     }
-    .l-7{
+    .m-col-l-7{
         @include m-col;
-        max-width: 58.34%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
     }
-    .l-8{
+    .m-col-l-8{
         @include m-col;
-        max-width: 66.66%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
     }
-    .l-9{
+    .m-col-l-9{
         @include m-col;
-        max-width: 75,18%;
+        max-width: 75%;
     }
-    .l-10{
+    .m-col-l-10{
         @include m-col;
-        max-width: 83.33%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
     }
-    .l-11{
+    .m-col-l-11{
         @include m-col;
-        max-width: 91.74%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
     }
-    .l-12{
+    .m-col-l-12{
         @include m-col;
         max-width: 100%;
     }
@@ -149,47 +190,55 @@
     .m-container{
         max-width: 1140px;
     }
-    .xl-2{
+    .m-col-xl-2{
         @include m-col;
-        max-width: 16.66%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
     }
-    .xl-3{
+    .m-col-xl-3{
         @include m-col;
+        flex: 0 0 25%;
         max-width: 25%;
     }
-    .xl-4{
+    .m-col-xl-4{
         @include m-col;
-        max-width: 33.33%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
     }
-    .xl-5{
+    .m-col-xl-5{
         @include m-col;
-        max-width: 44.44%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
     }
-    .xl-6{
+    .m-col-xl-6{
         @include m-col;
         max-width: 50%;
     }
-    .xl-7{
+    .m-col-xl-7{
         @include m-col;
-        max-width: 58.34%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
     }
-    .xl-8{
+    .m-col-xl-8{
         @include m-col;
-        max-width: 66.66%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
     }
-    .xl-9{
+    .m-col-xl-9{
         @include m-col;
-        max-width: 75,18%;
+        max-width: 75%;
     }
-    .xl-10{
+    .m-col-xl-10{
         @include m-col;
-        max-width: 83.33%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
     }
-    .xl-11{
+    .m-col-xl-11{
         @include m-col;
-        max-width: 91.74%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
     }
-    .xl-12{
+    .m-col-xl-12{
         @include m-col;
         max-width: 100%;
     }

@@ -3,4 +3,10 @@
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    word-break: break-word;
 }
