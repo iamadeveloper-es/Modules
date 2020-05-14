@@ -9,15 +9,16 @@ Sometimes for some reason we cannot include libraries or external frameworks suc
 
 With this small and light library you can still have the 12 column grid system.
 
-####Usage: 
+#### Usage: 
 
-- m-container 
+
+- m-container ->
 to make a container
 
-- m-row
+- m-row ->
 to make a row
 
-- m-col
+- m-col ->
 to make a column
 
 
